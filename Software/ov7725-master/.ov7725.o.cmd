@@ -1,0 +1,1 @@
+cmd_/home/schnegg/workspace/ov7725/ov7725.o := /home/schnegg/armadeus/buildroot/output/host/usr/bin/arm-linux-ld -EL    -r -o /home/schnegg/workspace/ov7725/ov7725.o /home/schnegg/workspace/ov7725/main.o 
