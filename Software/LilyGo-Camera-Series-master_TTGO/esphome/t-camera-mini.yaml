@@ -1,0 +1,40 @@
+# ESP Home Configure yaml
+
+esphome:
+  name: t-camera-mini
+  platform: ESP32
+  board: esp32dev
+
+wifi:
+  ssid: "ssid"
+  password: "password"
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+mqtt:
+  broker: 'ip address'
+  # username: 'user'
+  # password: 'password'
+
+# ttgo_camera_mini configuration
+esp32_camera:
+  external_clock:
+    pin: GPIO32
+    frequency: 20MHz
+  i2c_pins:
+    sda: GPIO13
+    scl: GPIO12
+  data_pins: [GPIO5, GPIO14, GPIO4, GPIO15, GPIO37, GPIO38, GPIO36, GPIO39]
+  vsync_pin: GPIO27
+  href_pin: GPIO25
+  pixel_clock_pin: GPIO19
+  #power_down_pin: -1
+
+  # Image settings
+  name: TTGO T-Camera Mini
