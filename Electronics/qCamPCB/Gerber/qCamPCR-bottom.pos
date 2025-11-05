@@ -1,0 +1,9 @@
+### Module positions - created on Di 24 Jan 2023 11:16:11 ###
+### Printed by Pcbnew version 6.0.9-8da3e8f707~117~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val             Package                PosX       PosY       Rot  Side
+X9        GOSH_LOGO       GOSH_Logo_21mm      -6.2430   -45.0692  180.0000  bottom
+X10       GlobalLampLogo  GlobalLampLogo      -6.8780    52.3398  180.0000  bottom
+X11       GaudiLabs_Logo  GaudiLabs_12        40.8520    51.3858  180.0000  bottom
+## End
